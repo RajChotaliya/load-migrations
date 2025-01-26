@@ -1,0 +1,35 @@
+{
+    "name": "rajchotaliya/load-migrations",
+    "description": "A package to recursively load migrations from directories and subdirectories.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RajChotaliya\\LoadMigrations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raj Chotaliya",
+            "email": "rajkc.webdev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RajChotaliya\\LoadMigrations\\LoadMigrationsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "version": "1.2.0",
+    "autoload-dev": {
+        "psr-4": {
+            "RajChotaliya\\LoadMigrations\\Tests\\": "tests/"
+        }
+    }
+}
