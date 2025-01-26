@@ -31,5 +31,11 @@
         "psr-4": {
             "RajChotaliya\\LoadMigrations\\Tests\\": "tests/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rajchotaliya/load-migrations"
+        }
+    ]
 }
